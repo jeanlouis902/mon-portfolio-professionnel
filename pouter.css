@@ -1,0 +1,105 @@
+.navigation{
+text-align: center;
+color: black;
+background-color: bisque;
+font-size: large;
+display: flex;
+justify-content: space-between;
+padding-right: 2px;
+padding: 5px;
+align-items: center;
+}
+
+.accueil{
+    text-decoration: none;
+}
+
+.propos, .service, .realisations, .competences, .blog{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.presentation{
+    background-color: rgb(207, 204, 209);
+    display: flex;
+    font-size: larger;
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+.moi{
+    align-items: center;
+    background-color: rgb(37, 72, 87);
+    padding-bottom: 80px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.image{
+    margin-top: 50px;
+    margin-right: 70x;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    height: 10px; 
+}
+.cours{
+    align-items: center;
+    margin-left: 100px;
+}
+
+button{
+    font-size: large;
+    background-color: blue;
+    border-radius: 5px;
+
+}
+
+.choc{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    gap: 40px;
+    font-size: 25px;
+
+    
+}
+
+
+
+.cervo{
+    text-align: center;
+    display: flex;
+    
+}
+.boimage{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loume{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    padding-bottom: 80px;
+    padding-top: 10px;
+   
+
+}
+
+.mavie{
+   align-items: center;
+    background-color: rgb(8, 201, 250);
+    padding-bottom: 80px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+
+ 
+
+
+
