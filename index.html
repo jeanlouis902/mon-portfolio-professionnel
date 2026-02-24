@@ -9,6 +9,8 @@
     <title>mon portfolio</title>
     <!-- ajout du lien css -->
      <link rel="stylesheet" href="./pouter.css">
+    <style>html { scroll-behavior: smooth; }</style>
+</head>
 <body>
      <!-- header section -->
       <section>
@@ -16,11 +18,11 @@
         <div class><img src="./image/1000_F_449632937_qOhJZhZMtphR9it3aJrhDLrJj3eviMLh.jpg" alt="commit" width="100px">creative </div>
         <div class="accueil">
 
-            <a href="#" class="propos">A propos</a>
-            <a href="Services" class="services">Services</a>
-            <a href="Mes realisations" class="realisations">Mes realisations</a>
-            <a href="Mes Competence" class="competences">Mes Competences</a>
-            <a href="Blog" class="blog">Blog</a>
+            <a href="#a-propos" class="propos">A propos</a>
+            <a href="#services" class="services">Services</a>
+            <a href="#realisations" class="realisations">Mes réalisations</a>
+            <a href="#competences" class="competences">Mes Compétences</a>
+            <a href="#blog" class="blog">Blog</a>
         </div>
         
            <button class="disc">Discutions du projet</button> 
@@ -42,7 +44,7 @@
             
             </div>
         </div>
-            <div class="moi">
+            <div id="a-propos" class="moi">
                 <h2>A propos de moi</h2>
                 <p>Je suis passionné par le développement d’applications web et mobiles,<br> avec un œil attentif pour le 
                    design UI/UX et l’expérience . <br>J’aime transformer des idées en solutions digitales concrètes 
@@ -58,7 +60,7 @@
             </div>
             <div>
 
-                <section class="loume">
+                <section id="services" class="loume">
                 <div >
                  <h2> Services </h2>
 
@@ -114,7 +116,7 @@
                
             </div>
 
-            <section class="mavie">
+            <section id="realisations" class="mavie">
 
             <div>
                 <p> <br>Mes réalisations <br> Découvrez quelques-uns de mes projets récents,<br> où design, technologie et créativité se rencontrent 
@@ -139,8 +141,8 @@
             </section>
        
 
- <div class="competences">
-        <h2>Compétences</h2>
+ <div id="competences" class="competences">
+     <h2>Compétences</h2>
         <p> Voici un aperçu de mes compétences techniques et créatives, acquises au fil de mes projets en <br>
             développement web, mobile et design digital.</p>
         <br>
@@ -175,7 +177,7 @@
             <img src="./images/f781b72be9a23bced1a314ab1a8adb5c-removebg-preview.png" alt="" width="100px">
             <p>Les designs de Guy sont à la fois visuellement captivants et
                 très efficaces. Elle a
-                <br>transformé notre site web, améliorant l’engagement des utilisateurs et les conversions. Son sens
+                <br>transformé notre site web, améliorant l engagement des utilisateurs et les conversions. Son sens
                 <br>du détail et son approche créative sont remarquables. Je la recommande vivement !
             </p>
             <img src="./images/94db6faa4a0626a4c466c9ee02cf0fdd-removebg-preview.png" alt="" width="100px"
@@ -183,7 +185,7 @@
         </div> <br>
         <div class="titre">
             <img src="./images/12e6fe811e12a44c7b4178b6f3acd6de.jpg" alt="" width="70px" style="border-radius: 200%;">
-            <p><span>Magloire AGBEGNIDO</span> / Fondateur de Magloire Generation Ministeries</p>
+            <p><span>koumazan</span> / developpeur web</p>
         </div>
     </section>
 
@@ -193,19 +195,13 @@
             <p> Vous avez une question ou un projet en tête ? Je serais ravi d'en <br>discuter avec vous. Échangeons
                 nos idées et créons ensemble <br>quelque chose d'exceptionnel.</p>
         </div>
-        <br>
-        <div>
-            <div class="cordonnés">
-                <img src="./images/téléphone.png.png" alt="" width="50px">
-                <p>(+228) 93 10 03 46 / 96 17 82 67</p>
-            </div>
-            <div class="cordonnés">
-                <img src="./images/mail color.png.png" alt="" width="50px">
-                <p>koumaagbeko@gmail.com</p>
-            </div>
-            <div class="cordonnés">
-                <img src="./images/lieu.png.png" alt="" width="50px">
-                <p>Kara-Togo</p>
+
+        <section id="blog" class="blog-section">
+                <h2>Blog</h2>
+                <p>Articles à venir — bientôt en ligne.</p>
+        </section>
+
+    <footer>Copiright 2025 <span>HEG Creative</span>, ma passion - Développeur web, mobile et le design UI/UX.</footer>
             </div>
         </div>
     </div>
@@ -220,7 +216,7 @@
     </div>
     
 
-  <footer>Copiright 2025 <span>HEG Creative</span>, ma passion - Développeur web, mobile et le design UI/UX.</footer>
+ 
 <script src="./script.js"></script>
         
 </body>

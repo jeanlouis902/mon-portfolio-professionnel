@@ -1,4 +1,4 @@
-/* .navigation{
+.navigation{
 text-align: center;
 color: black;
 background-color: bisque;
@@ -104,7 +104,7 @@ button{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #3195e7;
+    
     margin-left: 30px;
     margin-right: 30px;
     padding-bottom: 80px;
@@ -198,7 +198,7 @@ button{
     }
 }
 
- */
+
 
  
 
@@ -310,6 +310,7 @@ span{
 
 #contact{
     margin-left: 80px;
+     
 }
 
 .contact{
@@ -319,6 +320,7 @@ span{
     padding-top: 10px;
     margin-right: 30px;
     border-top: 2px solid red;
+   
 }
 
 footer{
@@ -333,21 +335,6 @@ footer{
     margin-right: 30px;
 }
 
-.competences{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #3195e7;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-bottom: 80px;
-    padding-top: 3px;
-    font-size: large;
-     border-top: 2px solid red;
-}
 
 .barre{
     font-size: large;
